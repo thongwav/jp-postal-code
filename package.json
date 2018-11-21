@@ -1,0 +1,60 @@
+{
+  "_from": "jp-postal-code",
+  "_id": "jp-postal-code@0.2.0",
+  "_inBundle": false,
+  "_integrity": "sha1-f4UrP8dDiXmoKiPV5ZCOmCEbBLI=",
+  "_location": "/jp-postal-code",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "jp-postal-code",
+    "name": "jp-postal-code",
+    "escapedName": "jp-postal-code",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/japan-postal-code/-/japan-postal-code-0.2.0.tgz",
+  "_shasum": "7f852b3fc7438979a82a23d5e5908e98211b04b2",
+  "_spec": "jp-postal-code",
+  "_where": "E:\\work\\project\\eiburu",
+  "author": {
+    "name": "mzp"
+  },
+  "bugs": {
+    "url": "https://github.com/thongwav/jp-postal-code/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "jsonp": "~0.2.0"
+  },
+  "deprecated": false,
+  "description": "Japan postal code library",
+  "devDependencies": {
+    "expect.js": "~0.3.1",
+    "zuul": "~2.1.1"
+  },
+  "homepage": "https://github.com/thongwav/jp-postal-code#readme",
+  "keywords": [
+    "zip",
+    "postal code",
+    "japan postal code"
+  ],
+  "license": "MIT License",
+  "main": "index.js",
+  "name": "jp-postal-code",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thongwav/jp-postal-code.git"
+  },
+  "scripts": {
+    "test": "zuul -- test/*.js",
+    "test-local": "zuul --local -- test/*.js"
+  },
+  "version": "0.2.0"
+}
